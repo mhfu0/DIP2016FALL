@@ -1,0 +1,10 @@
+Compilation:
+$ mkdir build && cd build && cmake .. && make
+
+For Question 1 to 4:
+$ ./hist <image_path>
+
+For Question 6:
+$ ./unsharp <image_path> <factor_k>
+
+* Output will be under the same folder where the execution file is.
