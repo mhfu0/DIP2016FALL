@@ -1,6 +1,6 @@
 HW2: Histogram and Image enhancement 
 
-[Problem Dsecription]
+[Problem Description]
 1) Plot the histogram of your selfie (gray scale).
 2) Conduct Gamma transformation & reduce the dynamic range of the result image
 3) Conduct full scale histogram stretching to the result of 2
