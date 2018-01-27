@@ -1,10 +1,21 @@
-Compilation:
+HW2: Histogram and Image enhancement 
+
+[Problem Dsecription]
+1) Plot the histogram of your selfie (gray scale).
+2) Conduct Gamma transformation & reduce the dynamic range of the result image
+3) Conduct full scale histogram stretching to the result of 2
+4) Conduct histogram equalization to the result of 2
+5) Discussion of problem 1~4
+6) Use a 5*5 box filter to smooth image and create an unsharp masking 
+
+[Compilation]
 $ mkdir build && cd build && cmake .. && make
 
+[Usage]
 For Question 1 to 4:
-$ ./hist <image_path>
+$ ./hist <image path>
 
 For Question 6:
-$ ./unsharp <image_path> <factor_k>
+$ ./unsharp <image path> <factor k>
 
-* Output will be under the same folder where the execution file is.
+* Output will be under the same folder as the executables.

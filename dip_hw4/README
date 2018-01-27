@@ -1,0 +1,9 @@
+DIP HW4: Filtering on Images
+
+[Problem Description]
+Use OpenCV, or Matlab, or any software you like, to compute the Fourier transform of your own face image, and then perform some smoothing and sharpening operations of your choice. Print out the results and give some discussions.
+
+[Usage]
+$ ./main <image file path>
+
+Options and parameters are asked to be input during runtime.

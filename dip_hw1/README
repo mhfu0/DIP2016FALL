@@ -1,0 +1,15 @@
+HW1: Interpolation
+
+[Problem Description]
+1. Write a program for non-integer scaling of an image with two options:
+-- Bilinear interpolation
+-- Bicubic interpolation
+2. Take a selfie of yourself, and apply the above image scaling program on your selfie (or part of your selfie, e.g., your right eye) with the scaling factors of 0.3, 3.0 and 18.
+3. Compare the quality of the images obtained with bilinear interpolation and with bicubic interpolation.
+4. Explain the method of bicubic interpolation, and compare its complexity with bilinear interpolation.
+
+[Usage]
+$ ./main <image path> <scaling factor> <option>
+<scaling factor>: real number
+<option>: ‘0’ for bilinear interpolation and ‘1’ for bicubic interpolation.
+
