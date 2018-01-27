@@ -1,5 +1,5 @@
 ## Offspring Prediction
-The repository contains source codes for offspring prediction.
+The repository contains source codes for offspring prediction, the second part of the final project for Digital Image Processing (2016 Fall).
 
 ### Description
 Offspring prediction using image morphing. Process includes facial landmark detection, triangulation and affine transformation. More details can be found in the report.
@@ -14,7 +14,8 @@ We use dlib's facial landmark detection, which is implemented with ensemble of r
 `dlib 19.2` 
 
 ### Usage
-`$ ./face_landmark_detection <img1_path> <img2_path> <alpha>`
+`$ ./face_landmark_detection <img1_path> <img2_path> <alpha>` 
+
 <alpha>: ratio between two source images
 
 ### Reference
